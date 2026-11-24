@@ -4,7 +4,7 @@ export function ComingSoonHeader() {
   return (
     <header className="relative z-10 flex min-h-28 items-center justify-center px-6 pt-16 pb-4 mt-5 lg:mt-7 lg:pt-20 lg:pb-6">
       <a
-        className="flex min-h-11 w-[min(236px,66vw)] items-center justify-center lg:w-[min(420px,78vw)]"
+        className="flex min-h-11 w-[min(236px,66vw)] items-center justify-center lg:w-[min(420px,78vw)] mt-10 lg:mt-14 xl:mt-20"
         href="#home"
         aria-label="KIMHAB ORK home"
       >
