@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s || KIMHAB ORK - Affordable Luxury Fashion",
     default: "KIMHAB ORK - Affordable Luxury Fashion",
   },
-  description: "KIMHAB ORK - An affordable luxury womenswear brand offering unique high quality designs and fabrics.",
+  description: "Discover KIMHAB ORK, an affordable luxury womenswear brand offering unique, high-quality designs and fabrics.",
   authors: [{ name: "KIMHAB ORK - Affordable Luxury Fashion" }],
   referrer: "origin-when-cross-origin",
   applicationName: "KIMHAB ORK - Affordable Luxury Fashion",
@@ -35,11 +35,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "KIMHAB ORK - Affordable Luxury Fashion",
     siteName: "KIMHAB ORK - Affordable Luxury Fashion",
-    description: "KIMHAB ORK - An affordable luxury womenswear brand offering unique high quality designs and fabrics.",
+    description: "Discover KIMHAB ORK, an affordable luxury womenswear brand offering unique, high-quality designs and fabrics.",
     images: {
-      url: "https://ik.imagekit.io/kimhabork/media/profile/og.png",
-      width: 1920,
-      height: 1000,
+      url: "https://ik.imagekit.io/digimoda/assets/media/og.webp",
+      width: 1200,
+      height: 680,
     },
     url: "https://kimhabork.com",
     locale: "en_US",
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
     title: "KIMHAB ORK - Affordable Luxury Fashion",
     card: "summary_large_image",
     creator: "@kimhabork_official",
-    description: "KIMHAB ORK - An affordable luxury womenswear brand offering unique high quality designs and fabrics.",
-    images: ["https://res.cloudinary.com/dk6p9zvfv/image/upload/v1762549370/assets/img/og.png"],
+    description: "Discover KIMHAB ORK, an affordable luxury womenswear brand offering unique, high-quality designs and fabrics.",
+    images: ["https://ik.imagekit.io/digimoda/assets/media/og.webp"],
   },
   alternates: {
     canonical: "https://www.kimhabork.com",
@@ -209,9 +209,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  sitemap: [
-    "https://kimhabork.com/sitemap.xml"
-  ]
 }
 
 export const viewport: Viewport = {

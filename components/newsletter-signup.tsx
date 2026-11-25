@@ -74,7 +74,7 @@ export function NewsletterSignup({ formId }: NewsletterSignupProps) {
           Be first to know.
         </h2>
         <p className="m-0 max-w-[340px] text-[clamp(0.8125rem,1.2vw,0.9rem)] leading-[1.8] text-muted-foreground [overflow-wrap:anywhere]">
-          Updates on events, collections, and exclusive news.
+          Updates on events, collections, and news.
         </p>
       </div>
       <div className="w-full min-w-0 md:max-w-[460px] md:justify-self-end">
@@ -92,7 +92,7 @@ export function NewsletterSignup({ formId }: NewsletterSignupProps) {
           </label>
           <div className="flex items-center border-b border-muted-foreground">
             <input
-              className="h-[50px] min-w-0 flex-1 border-0 bg-transparent text-[clamp(1rem,1.3vw,1.125rem)] text-foreground outline-none placeholder:text-muted-foreground focus-visible:outline-2 focus-visible:outline-ring focus-visible:outline-offset-2"
+              className="h-[50px] min-w-0 flex-1 border-0 bg-transparent text-[clamp(0.875rem,1.2vw,1rem)] text-foreground outline-none placeholder:text-muted-foreground focus-visible:outline-2 focus-visible:outline-ring focus-visible:outline-offset-2"
               id="newsletter-email"
               type="email"
               name="email"

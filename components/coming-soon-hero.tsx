@@ -2,7 +2,7 @@ export function ComingSoonHero() {
   return (
     <section className="flex flex-1" id="home" aria-labelledby="coming-title">
       <div className="flex flex-1 flex-col items-center justify-center px-5 pt-5 pb-16 text-center sm:px-6 md:pb-20">
-        <div className="flex items-center gap-2 text-[clamp(0.625rem,1vw,0.75rem)] tracking-[0.24em] text-foreground">
+        <div className="flex items-center gap-2 text-[clamp(0.625rem,1vw,0.875rem)] tracking-[0.24em] text-foreground">
           <span aria-hidden="true" className="h-px w-6 shrink-0 bg-foreground/40" />
           <p className="m-0 leading-none">A NEW ERA OF LUXURY FASHION</p>
           <span aria-hidden="true" className="h-px w-6 shrink-0 bg-foreground/40" />
@@ -14,7 +14,7 @@ export function ComingSoonHero() {
           <span className="block">COMING</span>
           <span className="mt-[0.06em] block">SOON</span>
         </h1>
-        <p className="m-0 max-w-[340px] px-2 font-sans text-[clamp(0.625rem,1vw,0.75rem)] leading-[1.8] tracking-[0.1em] text-muted-foreground uppercase">
+        <p className="m-0 max-w-[340px] px-2 font-sans text-[clamp(0.625rem,1vw,0.875rem)] leading-[1.8] tracking-[0.1em] text-muted-foreground uppercase">
           An affordable luxury womenswear.
         </p>
         <a
