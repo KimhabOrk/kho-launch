@@ -14,7 +14,7 @@ export function ComingSoonHero() {
           <span className="block">COMING</span>
           <span className="mt-[0.06em] block">SOON</span>
         </h1>
-        <p className="m-0 max-w-[340px] px-2 font-sans text-[clamp(0.75rem,0.633rem+0.5vw,1.125rem)] leading-[1.8] tracking-[0.24em] text-muted-foreground uppercase">
+        <p className="m-0 max-w-[340px] px-2 font-sans text-[clamp(0.75rem,0.633rem+0.5vw,1.125rem)] leading-[1.8] tracking-[0.14em] text-muted-foreground uppercase">
           An affordable luxury womenswear.
         </p>
         <a
