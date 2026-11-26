@@ -92,7 +92,7 @@ export function NewsletterSignup({ formId }: NewsletterSignupProps) {
           </label>
           <div className="flex items-center border-b border-muted-foreground">
             <input
-              className="h-[50px] min-w-0 flex-1 border-0 bg-transparent text-[clamp(0.875rem,1.2vw,1rem)] text-foreground outline-none placeholder:text-muted-foreground focus-visible:outline-2 focus-visible:outline-ring focus-visible:outline-offset-2"
+              className="h-[50px] min-w-0 flex-1 border-0 bg-transparent text-[clamp(0.75rem,0.662rem+0.38vw,1rem)] text-foreground outline-none placeholder:text-muted-foreground focus-visible:outline-2 focus-visible:outline-ring focus-visible:outline-offset-2"
               id="newsletter-email"
               type="email"
               name="email"
