@@ -8,7 +8,11 @@ export default function Page() {
     <main className="relative min-h-svh overflow-hidden bg-background text-foreground">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 z-0 bg-[url('/burgundy-satin-background.jpeg')] bg-cover bg-center opacity-[var(--satin-opacity)] brightness-[var(--satin-brightness)] saturate-[var(--satin-saturation)]"
+        className="pointer-events-none absolute inset-0 z-0 hidden bg-[url('/burgundy-satin-background.jpeg')] bg-cover bg-center opacity-[var(--satin-opacity)] brightness-[var(--satin-brightness)] saturate-[var(--satin-saturation)] md:block"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 z-0 bg-[url('/portrait-burgundy-satin-background.jpeg')] bg-cover bg-center opacity-[var(--satin-opacity)] brightness-[var(--satin-brightness)] saturate-[var(--satin-saturation)] md:hidden"
       />
       <div className="relative z-10">
         <div className="flex min-h-svh flex-col">

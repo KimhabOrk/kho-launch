@@ -50,9 +50,9 @@
   --input: oklch(0.95 0.025 22 / 24%);
   --ring: oklch(0.74 0.14 14);
   --radius: 0.2rem;
-  --satin-opacity: 0.36;
-  --satin-brightness: 0.76;
-  --satin-saturation: 0.92;
+  --satin-opacity: 0.33;
+  --satin-brightness: 0.70;
+  --satin-saturation: 0.88;
 }
 
 @layer base {
