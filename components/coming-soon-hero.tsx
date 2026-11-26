@@ -2,7 +2,7 @@ export function ComingSoonHero() {
   return (
     <section className="flex flex-1" id="home" aria-labelledby="coming-title">
       <div className="flex flex-1 flex-col items-center justify-center px-4 pt-4 pb-16 text-center sm:px-6 lg:px-8 md:pb-20">
-        <div className="flex items-center gap-2 text-[clamp(0.6875rem,1.25vw,1.125rem)] tracking-[0.24em] text-foreground">
+        <div className="flex items-center gap-2 text-[clamp(0.6875rem,0.534rem+0.66vw,1.125rem)] tracking-[0.24em] text-foreground">
           <span aria-hidden="true" className="h-px w-6 shrink-0 bg-foreground/40" />
           <p className="m-0 leading-none">A NEW ERA OF LUXURY FASHION</p>
           <span aria-hidden="true" className="h-px w-6 shrink-0 bg-foreground/40" />
@@ -14,11 +14,11 @@ export function ComingSoonHero() {
           <span className="block">COMING</span>
           <span className="mt-[0.06em] block">SOON</span>
         </h1>
-        <p className="m-0 max-w-screen px-2 font-sans text-[clamp(0.6875rem,1.25vw,1.125rem)] leading-[1.8] tracking-[0.1em] text-muted-foreground uppercase">
-          An affordable luxury womenswear.
+        <p className="m-0 max-w-screen px-2 font-sans text-[clamp(0.6875rem,0.534rem+0.66vw,1.125rem)] leading-[1.8] tracking-[0.1em] text-muted-foreground uppercase">
+          An affordable luxury womenswear
         </p>
         <a
-          className="mt-8 font-semibold inline-flex min-h-[54px] min-w-[190px] items-center justify-center border border-foreground/50 bg-card/70 px-7 font-sans text-[clamp(0.625rem,1vw,0.75rem)] tracking-[0.2em] text-foreground transition-colors duration-300 hover:border-foreground hover:bg-foreground hover:text-background focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 motion-reduce:transition-none"
+          className="mt-8 font-semibold inline-flex min-h-[54px] min-w-[190px] items-center justify-center border border-foreground/50 bg-card/75 px-7 font-sans text-[clamp(0.625rem,1vw,0.75rem)] tracking-[0.2em] text-foreground transition-colors duration-300 hover:border-foreground hover:bg-foreground hover:text-background focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 motion-reduce:transition-none"
           href="#newsletter-title"
         >
           GET NOTIFIED
